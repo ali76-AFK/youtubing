@@ -1,0 +1,117 @@
+body {
+    margin:3rem;
+    height: 90vh;
+    background: rgb(238, 235, 235);
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSM1rc06am74EH7q0-Gl3dggrc7bkKzqh1RSw&usqp=CAU') center/cover no-repeat;
+}
+
+
+.cont {
+    position: absolute;
+    top:0;
+    left:0%;
+}
+
+.rot {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    background: red;
+    padding: 1rem;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+.rot:hover {
+    border-radius: 0;
+}
+
+.rver {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    background: rgb(55, 41, 182);
+    padding: 1rem;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+.rver:hover {
+    border-radius: 0;
+}
+
+
+
+.sear {
+    padding: 0.5rem 8rem;
+    width: 203%;
+    background: rgb(76, 168, 76);
+    border-bottom: 3px rgb(133, 201, 133) solid;
+}
+
+.blur {
+    width:248%;
+    background: rgb(80, 170, 87);
+    padding: 4px;
+    position: absolute;
+    top:4rem;
+    filter: blur(8px);
+}
+
+input {
+    background: rgb(223, 221, 221);
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    overflow: none;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    margin:0;
+    position: absolute;
+    top:18%;
+    left: 78%;
+    background: rgb(104, 104, 150);
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+button:hover {
+    background:rgb(80, 161, 107);
+    transition: all 0.5s;
+}
+
+.side {
+    width: 30%;
+    background: rgb(201, 198, 198);
+    border: solid 3px rgb(152, 219, 149);
+    border-radius: 8px;
+    transition: all 0.5s;
+    position: absolute;
+    right: 70%;
+    top: 4rem;
+    transition: all 0.5s;
+}
+
+.hide {
+    /* display: none;
+    overflow: hidden; */
+    transition: all 0.5s;
+    right: 130%;
+}
+
+li {
+    list-style-type: none;
+    font-family: fantasy;
+    font-size: 1rem;
+    padding: 2rem;
+    color: rgb(107, 71, 175);
+    border-bottom: rgb(152, 219, 149) solid 3px;
+    transition: all 0.5s;
+}
+
+li:hover {
+    color: rgb(156, 63, 63);
+    background: rgb(129, 120, 120);
+}
